@@ -9,7 +9,7 @@ unset GIT_DIR     # Avoid GIT_DIR leak from previous build steps
 
 ### Constants
 
-FRONTEND_DIR="frontend"
+FRONTEND_DIR="./frontend"
 
 DEFAULT_CACHE="${FRONTEND_DIR}/node_modules"
 BPLOG_PREFIX="buildpack.nodejs"
