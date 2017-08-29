@@ -9,6 +9,7 @@ unset GIT_DIR     # Avoid GIT_DIR leak from previous build steps
 
 ### Constants
 
+### Test
 FRONTEND_DIR="/frontend"
 
 DEFAULT_CACHE=".${FRONTEND_DIR}/node_modules"
